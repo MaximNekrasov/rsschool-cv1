@@ -1,11 +1,21 @@
+body{
+   background-color: rgb(177, 218, 219);
+   margin: 0;
+   font-size: 15px;
+   line-height: 1.6;
+   color: #333;
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   font-family: 'Times New Roman', Times, serif;
+}
+.container{
+   width: 100%;
+   max-width: 1200px;
+   margin: 15px;
+
+}
 .text-shadow {
     text-shadow: 2px 2px 4px #666;
     font-size: 60px ;
- }
- .container {
-    text-align: center;
-    font-size: 20px;
-    float: left;
-    background-color: rgb(221, 204, 211);
-    font-family: cursive;
  }
