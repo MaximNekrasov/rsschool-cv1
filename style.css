@@ -32,9 +32,33 @@ body{
     padding: 40px;
     
  }
+ .textprofil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+ }
+ .textprofil .boxIMG{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+ }
+ .textprofil .boxIMG img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+ }
+
  /*Right container*/
  .container .rightSide{
    position: relative;
-   background: rgb(226, 236, 235);
+   background: rgb(210, 223, 223);
    padding: 40px;
 }
