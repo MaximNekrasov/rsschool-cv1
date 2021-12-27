@@ -18,20 +18,22 @@ body{
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 100px;
+    min-height: 1000px;
     background: rgb(234, 238, 236);
+    margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
- }
+    box-shadow: 0 35px 55px rgba(0, 0, 0,.7);
+    }
  /*Left container*/
- .container.leftSide{
+ .container .leftSide{
     position: relative;
     background: rgb(12, 35, 110);
     padding: 40px;
     
  }
  /*Right container*/
- .container.rightSide{
+ .container .rightSide{
    position: relative;
    background: rgb(226, 236, 235);
    padding: 40px;
