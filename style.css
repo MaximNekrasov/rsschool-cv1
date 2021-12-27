@@ -4,6 +4,7 @@
    font-family: sans-serif;
    box-sizing: border-box;
 }
+/*Base CV*/
 body{
    background: lightblue;
    display: flex;
@@ -12,6 +13,7 @@ body{
    min-height: 100vh;
 
 }
+/*Common container*/
  .container{
     position: relative;
     width: 100%;
@@ -21,12 +23,14 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr;
  }
+ /*Left container*/
  .container.leftSide{
     position: relative;
     background: rgb(12, 35, 110);
     padding: 40px;
     
  }
+ /*Right container*/
  .container.rightSide{
    position: relative;
    background: rgb(226, 236, 235);
