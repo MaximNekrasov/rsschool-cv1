@@ -115,10 +115,26 @@ margin-bottom: 17px;
     font-size: 300;
     font-style: italic;
  }
+ .contactinform.Lang .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(3, 3, 3);
+    display: block;
+    margin-top: 5px;
+
+ }
+ .contactinform.Lang .percent div{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    background-color: rgb(255, 253, 253);
+ }
 
  /*Right container*/
  .container .rightSide{
    position: relative;
-   background: rgb(210, 223, 223);
+   background: rgb(210, 223, 221);
    padding: 40px;
 }
