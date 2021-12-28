@@ -28,7 +28,7 @@ body{
  /*Left container*/
  .container .leftSide{
     position: relative;
-    background: rgb(12, 35, 110);
+    background: rgb(27, 27, 29);
     padding: 40px;
     
  }
@@ -54,6 +54,19 @@ left: 0;
 width: 100%;
 height: 100%;
 object-fit: cover;
+ }
+ .textprofil h3{
+    color: cornsilk;
+    font-size: 1.5em;
+    margin-top: 20%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+ }
+ .textprofil span{
+    font-size: 0.6em;
+    font-weight: 300;
  }
 
  /*Right container*/
