@@ -68,6 +68,53 @@ object-fit: cover;
     font-size: 0.6em;
     font-weight: 300;
  }
+ .contactinform{
+    padding-top: 40px;
+ }
+ .title{
+    color: rgb(249, 255, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+ }
+ .contactinform ul{
+    position: relative;    
+ }
+ .contactinform ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+ }
+ .contactinform ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    color: rgb(83, 135, 214);
+ }
+ .contactinform ul li span{
+    color: darkturquoise;
+    font-weight: 300;
+ }
+ .contactinform.Education li{
+margin-bottom: 17px;
+ }
+ .contactinform.Education h5{
+    color: darkturquoise;
+    font-weight: 500;
+    font-size: 20px;
+ }
+ .contactinform.Education h4:nth-child(2){
+    color: floralwhite;
+    font-size: 500;
+ }
+ .contactinform.Education h4{
+    color: rgb(126, 92, 25);
+    font-size: 300;
+    font-style: italic;
+ }
 
  /*Right container*/
  .container .rightSide{
