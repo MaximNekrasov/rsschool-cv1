@@ -1,0 +1,193 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   box-sizing: border-box;
+}
+/*Base CV*/
+body{
+   background: lightblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+
+}
+/*Common container*/
+ .container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(234, 238, 236);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0,.7);
+    }
+ /*Left container*/
+ .container .leftSide{
+    position: relative;
+    background: rgb(27, 27, 29);
+    padding: 40px;
+    
+ }
+ .textprofil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+ }
+ .textprofil .boxIMG{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+ }
+ .textprofil .boxIMG img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+ }
+ .textprofil h3{
+    color: cornsilk;
+    font-size: 1.5em;
+    margin-top: 20%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+ }
+ .textprofil span{
+    font-size: 0.6em;
+    font-weight: 300;
+ }
+ .contactinform{
+    padding-top: 40px;
+ }
+ .title{
+    color: rgb(249, 255, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+ }
+ .contactinform ul{
+    position: relative;    
+ }
+ .contactinform ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+ }
+ .contactinform ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    color: rgb(83, 135, 214);
+ }
+ .contactinform ul li span{
+    color: darkturquoise;
+    font-weight: 300;
+ }
+ .contactinform.Education li{
+margin-bottom: 17px;
+ }
+ .contactinform.Education h5{
+    color: darkturquoise;
+    font-weight: 500;
+    font-size: 20px;
+ }
+ .contactinform.Education h4:nth-child(2){
+    color: floralwhite;
+    font-size: 500;
+ }
+ .contactinform.Education h4{
+    color: rgb(126, 92, 25);
+    font-size: 300;
+    font-style: italic;
+ }
+ .contactinform.Lang .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(3, 3, 3);
+    display: block;
+    margin-top: 5px;
+
+ }
+ .contactinform.Lang .percent div{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    background-color: rgb(255, 253, 253);
+ }
+
+ /*Right container*/
+ .container .rightSide{
+   position: relative;
+   background: rgb(234, 240, 239);
+   padding: 40px;
+}
+.about{
+   margin-bottom: 50px;   
+}
+.about:last-child{
+   margin-bottom: 0;
+}
+.title2{
+   color: rgb(8, 8, 8);
+   text-transform: uppercase;
+   letter-spacing: 13px;
+   margin-bottom: 25px;
+}
+p{
+   color: rgb(0, 0, 0);
+   letter-spacing: 1px;
+   font-size: 20px;
+}
+.about .box{
+   display: flex;
+   flex-direction: row;
+   margin: 20px;
+}
+.skills .box{
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  justify-content: center;
+}
+.skills .box h4{
+   text-transform: uppercase;
+   color: rgb(9, 10, 90);
+   ;
+}
+.skills .box .percent{
+   position:relative;
+   width: 100%;
+   height: 10px;
+   background: rgb(199, 195, 243);
+}
+.skills .box .percent div{
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   background: rgb(3, 3, 3);
+}
+.logo{
+   margin-top: 70px;   
+   font-size: 5px;
+   
+   
+}
