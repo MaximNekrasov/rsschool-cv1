@@ -1,0 +1,65 @@
+  html{
+      box-sizing: border-box;
+  }
+  *. *::before, ::after{
+      box-sizing: inherit;
+  }
+  .header{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+  }
+  body{
+      font-family:inherit;
+      font-style: normal;
+      font-size: 20px;
+      font-weight: normal;
+      color: rgb(250, 250, 250);
+  }
+  /* Header style */
+
+  .header-container {
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 0 20px;
+  }
+  .header-wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding-top: 20px;
+  }
+  .header_list{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .header_item{
+      margin-right: 50px;
+      list-style-type: none;
+  }
+  .header_item:last-child{
+      margin-right: 0;
+  }
+  .header_link{
+    line-height: 50px;
+    color: white; 
+    text-decoration: none;
+    left: 59.24%;
+    top: 0px;
+    right: 5.07%;
+    height: 50px;
+  }
+  .header_link:hover, .header_link:focus, .header_link:active{
+      opacity: 75%;
+  }
+  /* Header end */
+
+  /* Intro styles start */
+
+  .intro{
+      height: 100vh;
+      background: url(../portfolio/assest/img/bg.jpg) no-repeat;
+      background-size: cover;
+  }
